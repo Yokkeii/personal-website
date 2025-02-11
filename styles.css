@@ -5,6 +5,8 @@
 body {
     background-image: url(assets/bgs/bg2.gif);
     font-family: monospace;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #topwelcome,#navbar,#centerbox,#bottom {
@@ -13,22 +15,25 @@ body {
     position: relative;
     transform: translate(-50%, 0);
     left: 50%;
-    width: 50%;
+    width: 75%;
+    padding: 12px;
 }
 
 #topwelcome {
     text-align: center;
     font: bolder;
     font-family: PixelFont;
-    font-size: larger;
+    font-size: x-large;
     color: pink;
     text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black;
+    background-color: aliceblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 
 #navbar {
-    margin-top: 10px;
-    padding: 12px;
+    margin-top: 6px;
     background-color: rgba(137, 46, 222, 0.57);
     text-align: center;
 }
@@ -46,21 +51,24 @@ body {
 }
 
 #centerbox {
-    height: auto;
-    padding: 12px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-size: 14px;
-    font-family: PixelFont;
-    color:rgba(0, 0, 0, 0.664) ;
+    height: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
     text-align: center;
     background-color:cornsilk;
+}
 
+#centerbox h2 {
+    font-family: PixelFont;
+}
+
+#centerbox p {
+    font-size: 1.5em;
+    color:rgba(0, 0, 0, 0.664) ;
 }
 
 #bottom {
-    padding: 12px;
-    margin-bottom: 10px;
+    margin-top: 6px;
     text-align: center;
     background-color: rgba(137, 46, 222, 0.57);
     font-family: 'Courier New', Courier, monospace;
