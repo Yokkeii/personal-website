@@ -1,1 +1,2 @@
-# yokkeii.github.io
+# Welcome!
+This is just my website but in github.
