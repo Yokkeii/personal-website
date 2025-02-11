@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "PixelFont";
     src: url(assets/fonts/ADDSBP__.TTF);
@@ -8,35 +7,36 @@ body {
     font-family: monospace;
 }
 
+#topwelcome,#navbar,#centerbox,#bottom {
+    border: groove 2px white;
+    border-radius: 20px;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 50%;
+}
+
 #topwelcome {
     text-align: center;
     font: bolder;
     font-family: PixelFont;
     font-size: large;
     color: pink;
-    border: groove 2px white;
-    border-radius: 20px;
     text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black;
 }
 
-#navbar,#centerbox,#bottom {
-    border: groove 2px white;
-    border-radius: 20px;
-}
 
 #navbar {
-    width: 100%;
-    position: static;
-    margin: auto;
     margin-top: 10px;
     text-align: center;
+    padding: 12px;
     background-color: rgba(137, 46, 222, 0.57);
 }
 
 #navbar a {
-    padding: 12px;
+    padding: 6px;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: white;
     display: inline-block;
 }
@@ -47,18 +47,17 @@ body {
 
 #centerbox {
     height: auto;
-    position: static;
     padding: 12px;
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 14px;
     text-align: center;
     background-color:cornsilk;
+
 }
 
 #bottom {
-    position: static;
-    margin: auto;
+    padding: 12px;
     margin-bottom: 10px;
     text-align: center;
     background-color: rgba(137, 46, 222, 0.57);
