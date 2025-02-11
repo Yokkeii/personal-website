@@ -20,7 +20,7 @@ body {
     text-align: center;
     font: bolder;
     font-family: PixelFont;
-    font-size: large;
+    font-size: larger;
     color: pink;
     text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black;
 }
@@ -28,17 +28,17 @@ body {
 
 #navbar {
     margin-top: 10px;
-    text-align: center;
     padding: 12px;
     background-color: rgba(137, 46, 222, 0.57);
+    text-align: center;
 }
 
 #navbar a {
-    padding: 6px;
     text-decoration: none;
     font-size: 1.5em;
     color: white;
     display: inline-block;
+    padding: 6px;
 }
 
 #navbar a:hover {
@@ -51,6 +51,8 @@ body {
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 14px;
+    font-family: PixelFont;
+    color:rgba(0, 0, 0, 0.664) ;
     text-align: center;
     background-color:cornsilk;
 
@@ -61,4 +63,6 @@ body {
     margin-bottom: 10px;
     text-align: center;
     background-color: rgba(137, 46, 222, 0.57);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
