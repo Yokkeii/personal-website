@@ -197,10 +197,6 @@ button:hover {
     background:url(assets/favicon/favicon.ico);
 }
 
-#statusIcon:hover {
-    background:url(assets/favicon/favicon.ico);
-}
-
 #statuscafe {
     background: var(--lt-color);
     border-radius: 15px;
