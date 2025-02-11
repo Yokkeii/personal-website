@@ -194,11 +194,13 @@ button:hover {
 }
 
 #statusIcon {
-    background:url(assets/deco/bear.gif);
+    background:url(assets/deco/fruge.gif);
+    background-position: top;
 }
 
 #statusIcon:hover {
-    background:url(assets/deco/fruge.gif);
+    background:url(assets/deco/cereza.gif);
+    background-position: top;
 }
 
 #statuscafe {
