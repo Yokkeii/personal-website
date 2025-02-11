@@ -194,7 +194,11 @@ button:hover {
 }
 
 #statusIcon {
-    background:url(assets/favicon/favicon.ico);
+    background:url(assets/deco/cereza.gif);
+}
+
+#statusIcon:hover {
+    background:url(assets/favicon/favicon\ \(1\).ico);
 }
 
 #statuscafe {
