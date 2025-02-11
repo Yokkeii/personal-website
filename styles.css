@@ -2,6 +2,12 @@
     font-family: "PixelFont";
     src: url(assets/fonts/ADDSBP__.TTF);
 }
+
+/* General */
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --dk-color: #f896c8;
     --mid-color: #ffdaed;
@@ -29,7 +35,9 @@ html {
     position: relative;
     display: block;
     font-size: 18px;
-    color: var(--dkest-color);
+    background-image: url(assets/bgs/DecoBunnyPattern.gif);
+    background-color: var(--mid-color);
+    overflow-y: auto;
 }
 
 a {
@@ -42,30 +50,22 @@ a:hover {
 }
 
 button {
-    appearance: auto;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    padding-block: 1px;
-    padding-inline: 6px;
+    background: linear-gradient(90deg, rgba(255, 218, 237, 1) 0%, rgba(255, 218, 237, 0) 100%);
+    color: var(--dkest-color);
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 2px solid var(--dk-color);
+    font-family: "magica";
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
 }
 
 button:hover {
     background: linear-gradient(90deg, rgba(196,250,255,1) 0%, rgba(196,250,255,0) 100%)
 }
 
-
-* {
-    box-sizing: border-box;
-}
 
 .main {
     width: 1080px;
@@ -99,11 +99,15 @@ button:hover {
     background-position: center;
     overflow-y: hidden;
     margin-bottom: 10px;
+    font-family:fantasy;
 }
 
 .title {
     font-size: 75px;
+
     text-align: center;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
 }
 
 /* Footer */
@@ -161,6 +165,34 @@ button:hover {
     grid-area: 2 / 1 / 3 / 2;
 }
 
+#indexSocials {
+    grid-area: 3 / 1 / 5 / 2;
+    text-align: center;
+}
+
+#indexSocials a {
+    color: var(--dk-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#indexSocials a:hover {
+    color: var(--accent);
+}
+
+#indexFiller1 {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+#indexFiller2 {
+    grid-area: 2 / 5 / 3 / 6;
+    text-align: center;
+}
+
+#indexFiller3 {
+    grid-area: 3 / 5 / 5 / 6;
+}
+
 #statusIcon {
     background:url(assets/favicon/favicon.ico);
 }
@@ -184,20 +216,6 @@ button:hover {
     font-weight: bold;
 }
 
-#indexSocials {
-    grid-area: 3 / 1 / 5 / 2;
-    text-align: center;
-}
-
-#indexSocials a {
-    color: var(--dk-color);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#indexSocials a:hover {
-    color: var(--accent);
-}
 
 h1, h3, h5 {
     color: var(--dk-color);
@@ -231,4 +249,44 @@ h2.indexHeading {
     margin: 5px;
     color: var(--dk-color);
     font-weight: bold;
+}
+
+/* End of Index */
+
+/* Section Titles */
+
+.SectionTab {
+    text-align: left;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid var(--dk-color);
+    border-bottom: 3px solid var(--dk-color);
+    padding: 1px;
+    background-color: var(--mid-color);
+}
+
+.SectionTitle {
+    display: inline-block;
+    margin: 1px 1px 5px 5px;
+    color: var(--dk-color);
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "fairy";
+    filter:drop-shadow(2px 0 0 white) drop-shadow(0 2px 0 white) drop-shadow(-2px 0 0 white) drop-shadow(0 -2px 0 white) drop-shadow(0px 1px 1px #FF73BA) drop-shadow(0px 1px 1px #FF73BA);
+}
+
+.SectionIcon {
+    height: 15px;
+    margin: 5px 3px 0px 3px;
+    float:left;
+  }
+
+.Subsection {
+    font-size: 18px;
+    color: var(--dkest-color);
+    padding: 2px;
+    background-color: var(--mid-color);
+    background-clip: padding-box;
+    border-bottom: 2px solid var(--dk-color);
 }
