@@ -2,6 +2,14 @@
     font-family: "PixelFont";
     src: url(assets/fonts/ADDSBP__.TTF);
 }
+@font-face {
+    font-family: "snow_fairy";
+    src: url(assets/fonts/snow_fairy/Snow\ Fairy.ttf);
+}
+@font-face {
+    font-family: "fat_fairy";
+    src: url(assets/fonts/fat_fairy/Fat\ Fairy.ttf);
+}
 
 /* General */
 * {
@@ -106,10 +114,8 @@ button:hover {
 
 .title {
     font-size: 75px;
-
+    font-family: "snow_fairy";
     text-align: center;
-    -webkit-text-stroke-color: #fff;
-    -webkit-text-stroke-width: 2px;
 }
 
 /* Footer */
@@ -236,6 +242,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    font-family: monospace;
 }
 
 h2 {
