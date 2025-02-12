@@ -259,6 +259,12 @@ h2.indexHeading {
 
 /* Section Titles */
 
+.SectionIcon {
+    height: 15px;
+    margin: 5px 3px 0px 3px;
+    float:left;
+  }
+
 .SectionTab {
     text-align: left;
     border-top: 2px solid white;
